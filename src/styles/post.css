@@ -1,0 +1,21 @@
+.news-feed {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.news-feed ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.news-feed li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.news-feed strong {
+  color: #333;
+}

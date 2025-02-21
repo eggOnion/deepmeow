@@ -1,0 +1,44 @@
+.genesis-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 60px;
+}
+
+.about-us-section {
+  flex: 1; /* Balance the space with login */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.login-section {
+  flex: 1.3; /* Balance the space with about-us */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Make the layout stack vertically on smaller screens */
+@media (max-width: 1200px) {
+  .genesis-container {
+      flex-direction: column;
+      align-items: center; /* Center content when stacked */
+      text-align: center;
+      margin-top: 250px;   
+  }
+
+  .about-us-section,
+  .login-section {
+      width: 100%; /* Full width for better mobile responsiveness */
+  }
+
+  .login-section {
+    width: 100%; /* Full width for better mobile responsiveness */
+    margin-top: -30px;
+    padding-bottom: 30px;
+}
+}

@@ -1,0 +1,100 @@
+.post-shared-style-container {
+  max-width: 800px;
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.post-shared-style {
+  border-radius: 20px;
+  padding: 15px;
+  padding-top: 5px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #2c3e50;
+}
+
+.video-preview {
+  width: 770px;
+  height: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-preview iframe,
+.video-preview video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Ensure video does not overflow post */
+.post-shared-style .video-preview {
+  max-width: 100%;
+}
+
+.post-shared-style p {
+  flex-grow: 1; /* Allow text to expand */
+  text-align: left;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  color: #333;
+  font-size: 16px;
+  background-color: #fff;
+  overflow-wrap: break-word; /* Prevents text from overflowing */
+
+  /* Scroll settings */
+  max-height: 190px; /* Set a height limit before scrolling */
+  overflow-y: auto; /* Enables vertical scrolling */
+  scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+  scrollbar-width: thin;
+}
+
+/* Ensures space between paragraphs */
+.post-shared-style p:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.post-shared-style small {
+  color: #777;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.post-shared-style-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: flex-end; /* Aligns buttons to the right */
+}
+
+.post-shared-style-edit-btn {
+  background-color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  color: white;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  min-width: 80px;
+  text-align: center;
+  display: inline-block;
+}
+
+.post-shared-style-edit-btn:hover {
+  border: 2px solid #007bff;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  transition: all 0.15s ease-in-out;
+}

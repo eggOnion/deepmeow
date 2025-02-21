@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;700&display=swap");
+
+.about-us-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.about-us-text {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  color: #007bff;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  text-align: center;
+  max-width: 85%;
+  position: relative;
+}
+
+/* Styling for bigger, unique font quotation marks */
+.quote {
+  font-size: 60px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: rgba(80, 80, 80, 0.9);
+  text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,18 @@
+.video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+div .topcat-video {
+  margin-top: 90px;
+  margin-bottom: -40px;
+}
+
+div .topcat-video-description {
+  color: #007bff;
+}
