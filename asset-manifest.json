@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/deepmeow/static/css/main.2b702c7c.css",
-    "main.js": "/deepmeow/static/js/main.99e59a64.js",
+    "main.js": "/deepmeow/static/js/main.af2b7f4d.js",
     "static/media/profile_pic.png": "/deepmeow/static/media/profile_pic.a6f556a8f974067e3065.png",
     "static/media/logo.png": "/deepmeow/static/media/logo.74a12b647b688579f67f.png",
     "index.html": "/deepmeow/index.html",
     "main.2b702c7c.css.map": "/deepmeow/static/css/main.2b702c7c.css.map",
-    "main.99e59a64.js.map": "/deepmeow/static/js/main.99e59a64.js.map"
+    "main.af2b7f4d.js.map": "/deepmeow/static/js/main.af2b7f4d.js.map"
   },
   "entrypoints": [
     "static/css/main.2b702c7c.css",
-    "static/js/main.99e59a64.js"
+    "static/js/main.af2b7f4d.js"
   ]
 }
