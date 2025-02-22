@@ -16,7 +16,12 @@ const Login = () => {
     const navigate = useNavigate();
 
     const handleChange = (e) => {
-        setFormData({ ...formData, [e.target.name]: e.target.value });
+        if (e.target.name === 'username') {
+            // Convert username to lowercase before updating the state
+            setFormData({ ...formData, [e.target.name]: e.target.value.toLowerCase() });
+        } else {
+            setFormData({ ...formData, [e.target.name]: e.target.value });
+        }
     };
 
     const handleLogin = async (e) => {
